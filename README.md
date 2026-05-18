@@ -118,7 +118,7 @@ entrena el modelo EigenFaces utilizando las imágenes almacenadas en el dataset.
 ```text
 modeloEigenFace.xml
 ```
-Este modelo se puede descargar del siguiente link: [text](https://drive.google.com/file/d/1YPM6-4alV7wnrvhL4NM8BHD7WWTw9oaG/view?usp=sharing)
+Este modelo se puede descargar del siguiente link: [click aquí](https://drive.google.com/file/d/1YPM6-4alV7wnrvhL4NM8BHD7WWTw9oaG/view?usp=sharing)
 
 ---
 
