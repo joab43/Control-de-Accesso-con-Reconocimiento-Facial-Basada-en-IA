@@ -358,12 +358,8 @@ No utilizar en entornos críticos sin validación adicional.
 
 ---
 
-# Autor
+# Disclaimer
 
 Proyecto desarrollado con fines educativos y de investigación en Computer Vision y Ciberseguridad.
 
----
 
-# Licencia
-
-MIT License
