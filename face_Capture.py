@@ -35,8 +35,9 @@ while True:
         count = count + 1
     cv2.imshow('frame', frame)
 
+#Cantidad de fotos que va a tomar el codigo
     k = cv2.waitKey(1)
-    if k == 27 or count >= 1300:
+    if k == 27 or count >= 1300: # 1300 parametro a cambiar, puede ser 500 o 100 o 1000, etc
         break
 
 cap.release()
