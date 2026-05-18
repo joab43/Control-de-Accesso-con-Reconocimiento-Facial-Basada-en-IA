@@ -1,0 +1,13 @@
+[project]
+name = "control-de-accesso-con-reconocimiento-facial-basada-en-ia"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "face-recognition>=1.3.0",
+    "imutils>=0.5.4",
+    "numpy>=2.2.6",
+    "opencv-contrib-python>=4.13.0.92",
+    "opencv-python>=4.13.0.92",
+]
