@@ -1,5 +1,3 @@
-# Control-de-Accesso-con-Reconocimiento-Facial-Basada-en-IA
-
 # Sistema de Control de Acceso con Reconocimiento Facial Basado en IA
 
 Proyecto desarrollado en Python utilizando OpenCV y técnicas clásicas de reconocimiento facial mediante EigenFaces para implementar un sistema básico de control de acceso basado en reconocimiento facial en tiempo real.
@@ -93,6 +91,10 @@ personName = 'NombrePersonaX'
 
 por el nombre real de la persona.
 
+```python
+dataPath = '/home/tu-usuario/Control-de-Accesso-con-Reconocimiento-Facial-Basada-en-IA/DATA/'
+```
+por tu directorio personal
 ---
 
 ## 2. Entrenamiento del Modelo
@@ -116,6 +118,7 @@ entrena el modelo EigenFaces utilizando las imágenes almacenadas en el dataset.
 ```text
 modeloEigenFace.xml
 ```
+Este modelo se puede descargar del siguiente link: [text](https://drive.google.com/file/d/1YPM6-4alV7wnrvhL4NM8BHD7WWTw9oaG/view?usp=sharing)
 
 ---
 
@@ -291,33 +294,15 @@ Esto puede causar errores en otros sistemas.
 
 ### Recomendación
 
-Usar rutas relativas:
+Usar rutas propias relativas:
 
 ```python
-dataPath = './data'
+dataPath = './tu-ruta'
 ```
 
 ---
 
-## 2. Inconsistencia de Carpetas
-
-El código usa:
-
-```python
-DATA/
-```
-
-pero la estructura recomendada es:
-
-```python
-data/
-```
-
-Linux distingue mayúsculas y minúsculas.
-
----
-
-## 3. Posible Error con OpenCV
+## 2. Posible Error con OpenCV
 
 El reconocimiento facial requiere:
 
@@ -341,25 +326,7 @@ pertenece a OpenCV Contrib.
 
 ---
 
-## 4. Posible Problema con Webcam en WSL
-
-En algunos entornos WSL la webcam puede no detectarse correctamente.
-
-Si ocurre:
-
-```python
-cap = cv2.VideoCapture(0)
-```
-
-probar:
-
-```python
-cap = cv2.VideoCapture(1)
-```
-
----
-
-## 5. Umbral de Reconocimiento
+## 3. Umbral de Reconocimiento
 
 El parámetro:
 
@@ -373,24 +340,6 @@ puede necesitar ajustes dependiendo de:
 - calidad de cámara
 - cantidad de imágenes
 - tamaño del dataset
-
----
-
-## 6. Nombre del Archivo
-
-Renombrar:
-
-```text
-train_face_recognizer
-```
-
-a:
-
-```text
-02_train_face_recognizer.py
-```
-
-para mantener consistencia.
 
 ---
 
