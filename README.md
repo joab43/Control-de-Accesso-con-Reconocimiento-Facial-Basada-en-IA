@@ -148,7 +148,7 @@ ejecuta el reconocimiento facial usando la webcam en tiempo real.
 ## Clonar el repositorio
 
 ```bash
-git clone https://github.com/USUARIO/REPOSITORIO.git
+git clone https://github.com/USUARIO/REPOSITORIO.git](https://github.com/joab43/Control-de-Accesso-con-Reconocimiento-Facial-Basada-en-IA
 ```
 
 ---
